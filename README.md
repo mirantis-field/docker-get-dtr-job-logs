@@ -18,7 +18,7 @@ docker run --rm \
   mbentley/get-dtr-job-logs
 ```
 
-The following environment variables are required: `DTR_URL`, `USERNAME`, `PASSWORD`, `JOB_TYPE`. The job type (`JOB_TYPE`) can be looked up using the [list of available types from the DTR docs](https://docs.docker.com/ee/dtr/admin/monitor-and-troubleshoot/troubleshoot-batch-jobs/#job-types).  You may also use `any` to get logs from all jobs.  `PASSWORD` can also be an [access token](https://docs.docker.com/ee/dtr/user/access-tokens/).  `RUNNING` can be `any`, `true`, or `false`.
+The following environment variables are required: `DTR_URL`, `USERNAME`, `PASSWORD`, `JOB_TYPE`. The job type (`JOB_TYPE`) can be looked up using the [list of available types from the DTR docs](https://docs.docker.com/ee/dtr/admin/manage-jobs/job-queue/#job-types).  You may also use `any` to get logs from all jobs.  `PASSWORD` can also be an [access token](https://docs.docker.com/ee/dtr/user/access-tokens/).  `RUNNING` can be `any`, `true`, or `false`.
 
 
 ### Show Job Info Only
